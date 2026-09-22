@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza X20 – Shahdadpur Ali Chowk Branch | Crave The Ultimate Slice</title>
+  <meta name="description" content="Welcome to Pizza X20 Shahdadpur Ali Chowk Branch. Fresh hand-tossed dough, 100% real melted mozzarella, loaded toppings, and sizzling fast delivery across Shahdadpur." />
+  
+  <!-- Favicon placeholder SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍕</text></svg>" />
+
+  <!-- Google Fonts: Montserrat & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ========================================================================
+       TOP ANNOUNCEMENT BAR (Live Branch Status & Fast Contacts)
+       ======================================================================== -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span id="branchHoursStatus" class="badge-branch">
+          <span class="pulse-dot"></span> <strong>Open Now</strong> • Ali Chowk, Shahdadpur
+        </span>
+        <span style="display: inline-flex; align-items: center; gap: 0.35rem;">
+          ⚡ Hot Delivery in <strong>[30 – 45 Mins]</strong>
+        </span>
+      </div>
+      <div class="top-bar-right">
+        <span>Order Hotline: <a href="tel:[923000000000]" class="placeholder-phone-link"><strong class="placeholder-phone">[+92 3XX XXXXXXX]</strong></a></span>
+        <a href="#location" style="text-decoration: underline;">Directions to Ali Chowk</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       STICKY NAVBAR
+       ======================================================================== -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <!-- Logo Group -->
+      <a href="#home" class="brand-logo-link">
+        <div class="logo-badge">X20</div>
+        <div class="logo-text-group">
+          <div class="logo-title">PIZZA <span>X20</span></div>
+          <div class="logo-tagline">Shahdadpur • Ali Chowk</div>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#featured" class="nav-link">Featured</a>
+        <a href="#menu" class="nav-link">Menu & Deals</a>
+        <a href="#why-us" class="nav-link">Why X20</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#location" class="nav-link">Location</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav CTA & Cart Trigger -->
+      <div class="nav-actions">
+        <button type="button" class="cart-trigger-btn" title="View Order Tray" aria-label="Open Order Tray">
+          <span>🛒</span>
+          <span class="cart-counter" style="display: none;">0</span>
+        </button>
+        <a href="#menu" class="btn btn-primary btn-sm">
+          <span>Order Now</span>
+          <span>→</span>
+        </a>
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       MOBILE NAVIGATION DRAWER & BACKDROP
+       ======================================================================== -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div>
+      <div class="drawer-header">
+        <div class="brand-logo-link">
+          <div class="logo-badge" style="width: 38px; height: 38px; font-size: 1rem;">X20</div>
+          <div class="logo-title" style="font-size: 1.15rem;">PIZZA <span>X20</span></div>
+        </div>
+        <button type="button" class="drawer-close-btn" id="closeMobileNavBtn" aria-label="Close menu">✕</button>
+      </div>
+
+      <nav class="mobile-nav-links">
+        <a href="#home" class="mobile-nav-link">Home <span>›</span></a>
+        <a href="#featured" class="mobile-nav-link">Featured Pizzas <span>›</span></a>
+        <a href="#menu" class="mobile-nav-link">Explore Full Menu <span>›</span></a>
+        <a href="#why-us" class="mobile-nav-link">Why Pizza X20 <span>›</span></a>
+        <a href="#reviews" class="mobile-nav-link">Customer Reviews <span>›</span></a>
+        <a href="#location" class="mobile-nav-link">Branch Location <span>›</span></a>
+        <a href="#contact" class="mobile-nav-link">Contact & Inquiries <span>›</span></a>
+      </nav>
+    </div>
+
+    <div class="mobile-drawer-footer">
+      <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+        📍 Ali Chowk, Shahdadpur, Sindh
+      </p>
+      <a href="tel:[923000000000]" class="btn btn-primary placeholder-phone-link" style="width: 100%; margin-bottom: 0.5rem;">
+        📞 Call <span class="placeholder-phone">[+92 3XX XXXXXXX]</span>
+      </a>
+      <a href="#" class="btn btn-whatsapp placeholder-whatsapp-link" style="width: 100%;" target="_blank">
+        💬 WhatsApp Order
+      </a>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       HERO SECTION (High Energy, Conversion-Centric)
+       ======================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-backdrop-glow"></div>
+    <div class="container hero-grid">
+      <!-- Left Content Column -->
+      <div class="hero-content">
+        <div class="hero-badge-row">
+          <span class="badge-tag">🔥 SHAHDADPUR'S CRUST CAPITAL</span>
+          <span class="badge-branch">📍 Ali Chowk Branch</span>
+        </div>
+
+        <h1 class="hero-title">
+          Crave The <span class="highlight">Ultimate Slice</span> In Shahdadpur.
+        </h1>
+
+        <p class="hero-description">
+          Hand-tossed artisan dough, 100% genuine melted mozzarella, secret herb blends, and sizzling bold flavors baked fresh to perfection right at Ali Chowk.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#menu" class="btn btn-primary">
+            <span>🍕 Order Now</span>
+          </a>
+          <a href="#menu" class="btn btn-secondary">
+            <span>📖 View Menu</span>
+          </a>
+          <a href="#" class="btn btn-whatsapp placeholder-whatsapp-link" target="_blank">
+            <span>💬 Quick WhatsApp Order</span>
+          </a>
+        </div>
+
+        <!-- Trust Points Bar -->
+        <div class="hero-trust-bar">
+          <div class="trust-item">
+            <div class="trust-icon">⚡</div>
+            <div class="trust-text">
+              <h4>Fast & Sizzling</h4>
+              <p>Hot delivery in 30-45 mins</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">🧀</div>
+            <div class="trust-text">
+              <h4>100% Real Cheese</h4>
+              <p>Pure mozzarella pull</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">✨</div>
+            <div class="trust-text">
+              <h4>Fresh Hand-Tossed</h4>
+              <p>Made daily at Ali Chowk</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Visual Column (Appetizing Pizza Showcase) -->
+      <div class="hero-visual">
+        <div class="pizza-plate-wrapper">
+          <div class="pizza-glow-ring"></div>
+          <img 
+            src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=85" 
+            alt="Pizza X20 Signature Hot Pizza" 
+            class="hero-main-pizza" 
+          />
+
+          <!-- Floating Badge 1: Top Left -->
+          <div class="floating-chip floating-chip-1">
+            <div class="chip-icon">⭐</div>
+            <div class="chip-meta">
+              <h5>4.9 / 5.0 Rating</h5>
+              <span>Shahdadpur Foodies</span>
+            </div>
+          </div>
+
+          <!-- Floating Badge 2: Bottom Right -->
+          <div class="floating-chip floating-chip-2">
+            <div class="chip-icon">🧀</div>
+            <div class="chip-meta">
+              <h5>Triple Cheese Crust</h5>
+              <span>Freshly Melted</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       BRANCH SPECIAL DEAL STRIP (Countdown & Voucher)
+       ======================================================================== -->
+  <section class="promo-banner-section">
+    <div class="container">
+      <div class="promo-card">
+        <div class="promo-left">
+          <div class="promo-icon-box">🎁</div>
+          <div class="promo-text">
+            <span class="badge-tag" style="background: rgba(255, 255, 255, 0.1); color: #FFF; border: none; margin-bottom: 0.3rem;">Ali Chowk Branch Exclusive Deal</span>
+            <h3>Shahdadpur Midnight & Weekend Feast</h3>
+            <p>Order any Large Pizza & unlock exciting branch bonus sides. Valid on Dine-in, Takeaway & Delivery!</p>
+          </div>
+        </div>
+        <div class="promo-right">
+          <div class="promo-voucher">[CODE: X20CHOWK]</div>
+          <div style="font-size: 0.85rem; color: var(--brand-yellow); font-weight: 700;">
+            Offer resets in: <span id="dealCountdown" style="color: #FFF; font-family: monospace;">04h : 42m : 15s</span>
+          </div>
+          <a href="#menu" class="btn btn-primary btn-sm">Claim Deal</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FEATURED PIZZAS SECTION
+       ======================================================================== -->
+  <section class="featured-section" id="featured">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-subtitle">Oven-Fresh Perfection</span>
+        <h2 class="section-title">Featured <span>Pizza Creations</span></h2>
+        <p class="section-desc">
+          Crafted with passion in our Ali Chowk kitchen. Generously loaded with prime cuts, authentic Italian seasonings, and rich mozzarella.
+        </p>
+      </div>
+
+      <!-- Injected dynamically from config.js -->
+      <div class="featured-grid" id="featuredPizzasContainer"></div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       POPULAR ITEMS & CATEGORY MENU SECTION
+       ======================================================================== -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-subtitle">Delicious Catalog</span>
+        <h2 class="section-title">Explore The <span>Full Menu</span></h2>
+        <p class="section-desc">
+          From signature pizzas and classic favorites to cheesy loaded sides, buffalo wings, and family feast bundles.
+        </p>
+      </div>
+
+      <!-- Category Filter Navigation & Search Bar -->
+      <div class="category-nav-wrap">
+        <div class="category-tabs-scroller" id="categoryTabsContainer"></div>
+        
+        <div class="menu-search-bar-wrap">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="menuSearchInput" 
+            class="menu-search-input" 
+            placeholder="Search pizza, fries, wings, or deals..." 
+          />
+        </div>
+      </div>
+
+      <!-- Menu Grid (Populated dynamically) -->
+      <div class="menu-items-grid" id="menuItemsContainer"></div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       WHY CHOOSE US SECTION
+       ======================================================================== -->
+  <section class="why-us-section" id="why-us">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-subtitle">The X20 Standard</span>
+        <h2 class="section-title">Why Shahdadpur <span>Loves Pizza X20</span></h2>
+        <p class="section-desc">
+          We don’t cut corners. From kneading the daily dough to the final sprinkle of herbs, every step is designed for mouth-watering perfection.
+        </p>
+      </div>
+
+      <div class="why-grid" id="whyUsContainer"></div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       CUSTOMER REVIEWS & TESTIMONIALS
+       ======================================================================== -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-subtitle">Real Stories</span>
+        <h2 class="section-title">Shahdadpur <span>Foodie Reviews</span></h2>
+        <p class="section-desc">
+          See what our guests at Ali Chowk and delivery customers around Shahdadpur have to say about their Pizza X20 experience.
+        </p>
+      </div>
+
+      <div class="reviews-grid" id="reviewsContainer"></div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       BRANCH LOCATION & OPERATING HOURS (ALI CHOWK, SHAHDADPUR)
+       ======================================================================== -->
+  <section class="location-section" id="location">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-subtitle">Visit Us Or Order In</span>
+        <h2 class="section-title">Shahdadpur <span>Ali Chowk Branch</span></h2>
+        <p class="section-desc">
+          Conveniently located in the heart of Shahdadpur at Ali Chowk for fast dine-in, easy takeaway pickup, and rapid city-wide delivery.
+        </p>
+      </div>
+
+      <div class="location-grid">
+        <!-- Branch Information Card -->
+        <div class="location-info-card">
+          <div class="info-block-group">
+            <div class="info-block">
+              <div class="info-block-icon">📍</div>
+              <div class="info-block-text">
+                <h4>Branch Address</h4>
+                <p class="placeholder-address">[Shop / Plot No.], Main Ali Chowk, Shahdadpur, Sindh, Pakistan</p>
+                <span>Near Central Ali Chowk Roundabout</span>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-block-icon">🕒</div>
+              <div class="info-block-text">
+                <h4>Operating Hours</h4>
+                <p class="placeholder-hours">[Daily: 1:00 PM – 2:00 AM]</p>
+                <span>Open 7 Days a week including public holidays</span>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-block-icon">📞</div>
+              <div class="info-block-text">
+                <h4>Branch Phone & WhatsApp</h4>
+                <p class="placeholder-phone">[+92 3XX XXXXXXX]</p>
+                <span>Direct Hotline for Takeaway and Table Booking</span>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-block-icon">🛵</div>
+              <div class="info-block-text">
+                <h4>Delivery Coverage in Shahdadpur</h4>
+                <div class="delivery-zones-badge-list">
+                  <span class="zone-chip">Ali Chowk</span>
+                  <span class="zone-chip">Station Road</span>
+                  <span class="zone-chip">College Road</span>
+                  <span class="zone-chip">Khadim Colony</span>
+                  <span class="zone-chip">Civil Hospital Area</span>
+                  <span class="zone-chip">Model Town</span>
+                  <span class="zone-chip">All Shahdadpur Vicinities</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
+            <a href="https://maps.google.com/?q=Ali+Chowk+Shahdadpur" target="_blank" class="btn btn-primary btn-sm">
+              <span>🗺️ Open in Google Maps</span>
+            </a>
+            <button type="button" class="btn btn-secondary btn-sm" id="copyAddressBtn">
+              <span>📋 Copy Address</span>
+            </button>
+            <a href="tel:[923000000000]" class="btn btn-secondary btn-sm placeholder-phone-link">
+              <span>📞 Call Branch</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Styled Dark Mode Map Container -->
+        <div class="location-map-wrapper">
+          <iframe 
+            class="location-map-iframe"
+            title="Pizza X20 Shahdadpur Ali Chowk Location Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115160.0!2d68.68!3d25.92!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c03b123456789%3A0x0!2sShahdadpur%2C+Sindh!5e0!3m2!1sen!2s!4v1700000000000" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+          <div class="map-floating-overlay">
+            <div>
+              <strong style="color: var(--text-white); font-size: 0.9rem;">Pizza X20 – Ali Chowk</strong>
+              <div style="font-size: 0.75rem; color: var(--brand-yellow);">Central Shahdadpur Branch</div>
+            </div>
+            <a href="https://maps.google.com/?q=Ali+Chowk+Shahdadpur" target="_blank" class="btn btn-primary btn-sm">Directions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       CONTACT & CATERING INQUIRIES + FAQ SECTION
+       ======================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Party Orders & <span>Direct Inquiries</span></h2>
+        <p class="section-desc">
+          Planning a birthday celebration, family dinner, or corporate feast in Shahdadpur? Send us a message or check our frequently asked questions.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Inquiry Form -->
+        <div class="contact-card">
+          <h3 style="font-family: var(--font-heading); color: var(--text-white); font-size: 1.25rem; margin-bottom: 0.5rem;">
+            Quick Inquiry / Bulk Order
+          </h3>
+          <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 1.5rem;">
+            Fill out this quick form or reach us directly on WhatsApp for party deals.
+          </p>
+
+          <form class="contact-form" id="cateringInquiryForm">
+            <div class="form-group">
+              <label for="contactName">Your Full Name</label>
+              <input type="text" id="contactName" class="form-control" placeholder="e.g. Asad Ali" required />
+            </div>
+
+            <div class="form-group">
+              <label for="contactPhone">Phone / WhatsApp Number</label>
+              <input type="tel" id="contactPhone" class="form-control" placeholder="[+92 3XX XXXXXXX]" required />
+            </div>
+
+            <div class="form-group">
+              <label for="eventDetails">Event / Order Details</label>
+              <textarea id="eventDetails" class="form-control" placeholder="Tell us about your event date, number of guests, or favorite pizza preferences in Shahdadpur..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Submit Inquiry</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- FAQ Accordion -->
+        <div>
+          <h3 style="font-family: var(--font-heading); color: var(--text-white); font-size: 1.25rem; margin-bottom: 1.25rem;">
+            Shahdadpur Branch FAQs
+          </h3>
+          <div class="faq-accordion" id="faqContainer"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Summary -->
+        <div class="footer-brand">
+          <div class="brand-logo-link">
+            <div class="logo-badge">X20</div>
+            <div class="logo-text-group">
+              <div class="logo-title">PIZZA <span>X20</span></div>
+              <div class="logo-tagline">Shahdadpur • Ali Chowk</div>
+            </div>
+          </div>
+          <p>
+            The pinnacle of taste, artisan crust, and generous cheese pull in Shahdadpur. Proudly serving our local community with supreme quality and fast service.
+          </p>
+          <div class="social-links-row">
+            <a href="https://facebook.com/[your-page-placeholder]" target="_blank" class="social-icon-btn" title="Facebook">FB</a>
+            <a href="https://instagram.com/[your-handle-placeholder]" target="_blank" class="social-icon-btn" title="Instagram">IG</a>
+            <a href="https://tiktok.com/@[your-handle-placeholder]" target="_blank" class="social-icon-btn" title="TikTok">TK</a>
+            <a href="#" class="social-icon-btn placeholder-whatsapp-link" target="_blank" title="WhatsApp">WA</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#featured">Featured Pizzas</a></li>
+            <li><a href="#menu">Complete Menu</a></li>
+            <li><a href="#why-us">Why Choose X20</a></li>
+            <li><a href="#reviews">Customer Testimonials</a></li>
+          </ul>
+        </div>
+
+        <!-- Menu Categories -->
+        <div>
+          <h4 class="footer-col-title">Menu Specialties</h4>
+          <ul class="footer-links-list">
+            <li><a href="#menu">Signature Pizzas</a></li>
+            <li><a href="#menu">Spicy BBQ & Fajita</a></li>
+            <li><a href="#menu">Stuffed Cheesy Crust</a></li>
+            <li><a href="#menu">Loaded Crispy Fries</a></li>
+            <li><a href="#menu">Family Feast Deals</a></li>
+          </ul>
+        </div>
+
+        <!-- Branch Contact & Timings -->
+        <div>
+          <h4 class="footer-col-title">Shahdadpur Branch</h4>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+            📍 <span class="placeholder-address">[Shop / Plot No.], Main Ali Chowk, Shahdadpur, Sindh</span>
+          </p>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+            📞 <a href="tel:[923000000000]" class="placeholder-phone-link" style="color: var(--brand-yellow);"><strong class="placeholder-phone">[+92 3XX XXXXXXX]</strong></a>
+          </p>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+            🕒 <span class="placeholder-hours">[Daily: 1:00 PM – 2:00 AM]</span>
+          </p>
+          <div style="margin-top: 1rem;">
+            <a href="#" class="btn btn-whatsapp btn-sm placeholder-whatsapp-link" target="_blank" style="width: 100%;">
+              <span>WhatsApp Direct Order</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>
+          © 2026 Pizza X20 – Shahdadpur Ali Chowk Branch. All Rights Reserved.
+        </div>
+        <div>
+          <span>Crafted for Extreme Flavor & High Performance</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       SLIDE-OUT INTERACTIVE CART DRAWER (WhatsApp Checkout)
+       ======================================================================== -->
+  <div class="cart-drawer-overlay" id="cartDrawerOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-drawer-header">
+      <h3><span>🛒</span> Your Order Tray</h3>
+      <button type="button" class="drawer-close-btn" id="closeCartBtn" aria-label="Close Tray">✕</button>
+    </div>
+
+    <!-- Items List -->
+    <div class="cart-items-container" id="cartItemsList"></div>
+
+    <!-- Footer & Checkout Form -->
+    <div class="cart-drawer-footer">
+      <div class="cart-summary-line">
+        <span>Selected Items:</span>
+        <strong id="cartTotalDisplay" style="color: var(--brand-yellow);">[0 Items Selected]</strong>
+      </div>
+      <div class="cart-summary-line">
+        <span>Estimated Delivery:</span>
+        <span>[30 – 45 Mins]</span>
+      </div>
+
+      <!-- Customer Details for WhatsApp Order -->
+      <div class="customer-fields-group">
+        <input 
+          type="text" 
+          id="orderCustomerName" 
+          class="cart-input" 
+          placeholder="Your Full Name (e.g. Asad Ali)" 
+        />
+        <input 
+          type="tel" 
+          id="orderCustomerPhone" 
+          class="cart-input" 
+          placeholder="Contact Number (e.g. [+92 3XX XXXXXXX])" 
+        />
+        <input 
+          type="text" 
+          id="orderCustomerAddress" 
+          class="cart-input" 
+          placeholder="Street / Area in Shahdadpur (e.g. Ali Chowk)" 
+        />
+        <input 
+          type="text" 
+          id="orderCustomerNotes" 
+          class="cart-input" 
+          placeholder="Special requests (e.g. Extra spicy, no onions)" 
+        />
+      </div>
+
+      <!-- One-Click WhatsApp Checkout -->
+      <button type="button" class="btn btn-whatsapp" id="whatsappCheckoutBtn" style="width: 100%;">
+        <span>💬 Send Order via WhatsApp</span>
+      </button>
+      <p style="font-size: 0.72rem; text-align: center; color: var(--text-muted); margin-top: 0.5rem;">
+        Clicking compiles your selected items into a formatted WhatsApp message to the branch hotline.
+      </p>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       MOBILE BOTTOM QUICK ACTION BAR (Thumb-friendly conversion)
+       ======================================================================== -->
+  <div class="mobile-bottom-bar">
+    <div class="mobile-bottom-grid">
+      <a href="#home" class="bottom-tab-btn active">
+        <span class="tab-icon">🏠</span>
+        <span>Home</span>
+      </a>
+      <a href="#menu" class="bottom-tab-btn">
+        <span class="tab-icon">🍕</span>
+        <span>Menu</span>
+      </a>
+      <a href="tel:[923000000000]" class="bottom-tab-btn placeholder-phone-link">
+        <span class="tab-icon">📞</span>
+        <span>Call</span>
+      </a>
+      <button type="button" class="bottom-tab-btn cart-trigger-btn" style="width: 100%; border: none; background: transparent; border-radius: 0;">
+        <span class="tab-icon">🛒</span>
+        <span>Tray (<span class="cart-counter" style="position: static; display: inline-flex; width: 16px; height: 16px; font-size: 0.65rem;">0</span>)</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
