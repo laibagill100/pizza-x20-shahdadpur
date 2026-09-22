@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Slice Not Found | Pizza X20 Shahdadpur</title>
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .error-wrapper {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem 1.25rem;
+    }
+    .error-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius-xl);
+      padding: 3.5rem 2.5rem;
+      max-width: 580px;
+      box-shadow: var(--shadow-card), 0 0 35px rgba(245, 158, 11, 0.2);
+    }
+    .error-emoji {
+      font-size: 5rem;
+      margin-bottom: 1rem;
+      display: inline-block;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+    .error-title {
+      font-family: var(--font-heading);
+      font-size: 2.2rem;
+      color: var(--text-white);
+      margin-bottom: 1rem;
+      font-weight: 900;
+    }
+    .error-title span {
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .error-msg {
+      color: var(--text-secondary);
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-wrapper">
+    <div class="error-card">
+      <div class="error-emoji">🍕</div>
+      <h1 class="error-title">404: <span>Slice Not Found</span></h1>
+      <p class="error-msg">
+        The page you are looking for has been eaten or does not exist at Pizza X20 Shahdadpur Ali Chowk Branch.
+      </p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="index.html#home" class="btn btn-primary">
+          <span>🏠 Return to Home</span>
+        </a>
+        <a href="index.html#menu" class="btn btn-secondary">
+          <span>🍕 View Shahdadpur Menu</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

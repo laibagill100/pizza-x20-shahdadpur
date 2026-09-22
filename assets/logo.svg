@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80">
+  <defs>
+    <linearGradient id="logoGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE600"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="fireBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <!-- Badge Icon -->
+  <g transform="translate(10, 10)">
+    <rect width="60" height="60" rx="16" fill="url(#logoGold)" transform="rotate(-3 30 30)" />
+    <text x="30" y="38" text-anchor="middle" dominant-baseline="central" font-family="'Montserrat', sans-serif" font-weight="900" font-size="22" fill="#0B0B0E">X20</text>
+  </g>
+  <!-- Text Group -->
+  <g transform="translate(85, 20)">
+    <text x="0" y="24" font-family="'Montserrat', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="-0.5">PIZZA <tspan fill="url(#logoGold)">X20</tspan></text>
+    <text x="0" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#F59E0B" letter-spacing="2">SHAHDADPUR • ALI CHOWK</text>
+  </g>
+</svg>

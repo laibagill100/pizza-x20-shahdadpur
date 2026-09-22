@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="ogGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE600"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <radialGradient id="ogBg" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#241B08"/>
+      <stop offset="60%" stop-color="#0A0A0C"/>
+      <stop offset="100%" stop-color="#050507"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  
+  <!-- Outer border -->
+  <rect x="20" y="20" width="1160" height="590" rx="30" fill="none" stroke="url(#ogGold)" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Brand Header -->
+  <g transform="translate(100, 100)">
+    <rect width="90" height="90" rx="24" fill="url(#ogGold)" transform="rotate(-3 45 45)"/>
+    <text x="45" y="55" text-anchor="middle" dominant-baseline="central" font-family="'Montserrat', sans-serif" font-weight="900" font-size="34" fill="#0B0B0E">X20</text>
+    
+    <text x="120" y="45" font-family="'Montserrat', sans-serif" font-weight="900" font-size="48" fill="#FFFFFF">PIZZA <tspan fill="url(#ogGold)">X20</tspan></text>
+    <text x="120" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="18" fill="#F59E0B" letter-spacing="3">SHAHDADPUR • ALI CHOWK BRANCH</text>
+  </g>
+
+  <!-- Big Catchphrase -->
+  <text x="100" y="310" font-family="'Montserrat', sans-serif" font-weight="900" font-size="64" fill="#FFFFFF" line-height="1.2">
+    CRAVE THE ULTIMATE SLICE
+  </text>
+  <text x="100" y="380" font-family="'Montserrat', sans-serif" font-weight="900" font-size="64" fill="url(#ogGold)">
+    IN SHAHDADPUR.
+  </text>
+
+  <!-- Details -->
+  <text x="100" y="450" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="24" fill="#9CA3AF">
+    100% Real Mozzarella • Hand-Tossed Fresh Daily • Fast Hot Local Delivery
+  </text>
+
+  <!-- Badges -->
+  <g transform="translate(100, 500)">
+    <rect width="260" height="50" rx="25" fill="rgba(245, 158, 11, 0.2)" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="130" y="32" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="18" fill="#FFC000">📍 Ali Chowk, Shahdadpur</text>
+  </g>
+
+  <g transform="translate(390, 500)">
+    <rect width="250" height="50" rx="25" fill="rgba(34, 197, 94, 0.2)" stroke="#22C55E" stroke-width="1.5"/>
+    <text x="125" y="32" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="18" fill="#22C55E">💬 WhatsApp Orders Ready</text>
+  </g>
+
+  <!-- Pizza Visual Emoji Illustration -->
+  <text x="960" y="360" font-size="200" text-anchor="middle">🍕</text>
+</svg>
